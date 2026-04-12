@@ -1,2 +1,92 @@
-# budgetrak-legal
-BudgeTrak Privacy Policy
+# BudgeTrak
+
+**Know what you can spend. Every day. Without thinking about it.**
+
+BudgeTrak is a personal budgeting app that calculates a safe daily, weekly, or monthly spending amount based on your real income and expenses — then tracks it for you automatically. No spreadsheets, no complicated setup, no subscription required to get started.
+
+## Why BudgeTrak?
+
+Most budgeting apps make you categorize every purchase into envelopes, reconcile accounts, or connect your bank credentials to a third party. BudgeTrak takes a different approach: tell it what you earn and what your recurring bills are, and it calculates exactly how much you can safely spend each period. The rest is automatic.
+
+- **One number that matters** — your available cash, updated in real time on a beautiful Solari flip-display widget right on your home screen
+- **No bank login required** — your financial credentials stay with your bank, not with us
+- **End-to-end encrypted sync** — share a household budget across up to 5 devices with encryption so strong that even our servers can't read your data
+- **Works offline** — the full app runs locally on your device, syncing only when you choose to
+
+## Features
+
+**Budget Engine**
+- Automatic safe-budget calculation based on your actual income schedule and bill timing
+- Daily, weekly, or monthly budget periods — pick what fits your life
+- Handles irregular pay schedules, variable income, and clustered bills
+- Manual override option when you want full control
+
+**Transaction Management**
+- Quick-add from the home screen widget — log an expense in under 3 seconds
+- Bank statement import (CSV, Excel) with automatic duplicate detection
+- Smart merchant matching and auto-categorization that learns from your habits
+- Multi-category split transactions with a visual pie-chart editor
+- Receipt photo capture (up to 5 per transaction) with encrypted cloud sync
+- PDF expense reports for taxes, reimbursement, or sharing with an accountant
+
+**Savings Goals & Amortization**
+- Save before a planned purchase (Savings Goals) or spread an unexpected expense over time (Amortization)
+- Target-date and fixed-contribution goal types
+- Accelerated set-aside mode for bills you want fully funded before they arrive
+- 18-month Cash Flow Simulation to visualize your financial trajectory
+
+**Household Sync (BudgeTrak SYNC)**
+- Share one budget across up to 5 family devices in real time
+- End-to-end encryption — the cloud relay stores only encrypted data
+- Device presence indicators show who's online and when each device last synced
+- Transaction attribution shows which family member recorded each expense
+- One device administers shared settings; others follow automatically
+
+**Budget Calendar**
+- Visual monthly calendar showing when income and expenses are scheduled
+- Color-coded days: green for income, red for expenses, blue for budget reset days
+- Tap any day to see the breakdown
+
+**Privacy First**
+- Zero permissions beyond internet access — no contacts, no location, no phone access
+- No account required for solo use (anonymous authentication for sync only)
+- Optional crash reporting with a clear opt-out toggle — and even when enabled, no financial data is ever sent
+- Your data stays on your device unless you explicitly enable sync
+
+## Pricing
+
+| | Free | Paid (one-time) | Subscriber (monthly) |
+|---|---|---|---|
+| Budget engine + tracking | Yes | Yes | Yes |
+| Home screen widget | 1 entry/day | Unlimited | Unlimited |
+| CSV / Excel import | Yes | Yes | Yes |
+| Save to CSV | Yes | Yes | Yes |
+| Save to Excel / PDF | — | Yes | Yes |
+| Receipt photos | — | Up to 5/transaction | Up to 5/transaction |
+| Ad-free | — | Yes | Yes |
+| Household SYNC | — | Join (free) | Create + Admin |
+| Cash Flow Simulation | — | — | Yes |
+
+**Compare that to the competition:**
+- YNAB: $14.99/month ($99/year)
+- Goodbudget: $10/month ($80/year)
+- EveryDollar (Ramsey+): $17.99/month
+
+BudgeTrak's core budgeting features are **free forever**, the one-time paid upgrade costs less than a single month of most competitors, and even the full subscription with household sync costs a fraction of what others charge monthly.
+
+## Download
+
+[Get BudgeTrak on Google Play](https://play.google.com/store/apps/details?id=com.techadvantage.budgetrak)
+
+*Available for Android. iOS coming soon.*
+
+## Links
+
+- [Privacy Policy](https://techadvantagesupport.github.io/budgetrak-legal/privacy)
+- [Support](mailto:techadvantagesupport@gmail.com)
+
+## About
+
+BudgeTrak is developed and published by **Tech Advantage LLC**.
+
+Your money. Your data. Your control.
