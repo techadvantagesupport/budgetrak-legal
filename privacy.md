@@ -43,14 +43,20 @@ When you leave a SYNC group or dissolve it, your local data is preserved on your
 
 ### Diagnostic and Crash Data
 
-To keep BudgeTrak stable and identify bugs, we use **Google Firebase Crashlytics** to collect crash reports and basic diagnostic information. This includes:
+To keep BudgeTrak stable and identify bugs, we use **Google Firebase Crashlytics** to collect crash reports and basic diagnostic information. This collection is **on by default** but can be turned off at any time in **Settings → Privacy → Send crash reports**.
+
+When crash reporting is enabled, the data we collect includes:
 
 - Crash stack traces and error messages.
 - Anonymous device information (model, OS version, app version).
-- Diagnostic counters such as the number of records you have, sync status, and a hashed (one-way digest) representation of your available cash balance — **not** the actual cash value.
-- Timestamped events like "sync started" or "listener restarted" used to debug sync issues.
+- An anonymous Firebase Authentication user ID (if you use SYNC) — this is a random identifier, not your name or email.
+- Diagnostic counters: the number of transactions, recurring expenses, and period-ledger entries you have; sync status (`healthy`, `dead`, or `off`); the number of devices in your SYNC group; and the date of your last period refresh.
+- A **one-way hash digest** of your available cash balance (computed locally as a hex digest before being sent). The actual cash value never leaves your device, and the hash cannot be reversed to recover the original number.
+- Timestamped lifecycle events like "listener started," "token refreshed," or "period boundary crossed" used to debug sync issues.
 
-Crash data does **not** include the contents of your transactions, merchant names, amounts, receipt photos, or any other personal financial information.
+Crash data does **not** include any of the following: the contents of your transactions, merchant names, amounts, dates, descriptions, categories, receipt photos, encryption keys, or any other personal financial information. We hash the only piece of financial data that touches Crashlytics (your cash balance) precisely so that even we cannot read it.
+
+If you disable crash reporting, none of the above is collected — and the daily diagnostic snapshot we use to confirm devices are healthy is also skipped. We recommend leaving it on so we can detect and fix bugs that affect real users, but the choice is yours.
 
 ### Authentication and Anti-Abuse
 
@@ -126,7 +132,7 @@ You have full control over your data in BudgeTrak.
 - **Leave a SYNC group**: Tap "Leave Group" on the SYNC screen. Your local data is preserved; cloud data tied to your device is removed.
 - **Dissolve a SYNC group** (admin only): Tap "Dissolve Group" on the SYNC screen. All cloud data for the group is permanently deleted; each device retains its local copy.
 - **Export your data**: Use the Save feature on the Transactions screen to export your transactions in CSV, Excel, or PDF format. Backups via Settings include all your budget data in a single file.
-- **Disable Crashlytics**: Crash reporting can be disabled in your Android system settings under "Privacy" or "Diagnostics."
+- **Disable crash reporting**: Open **Settings → Privacy → Send crash reports** in BudgeTrak and uncheck the box. The change takes effect immediately, the daily diagnostic snapshot stops, and Firebase Crashlytics is told to stop collecting any data from your device.
 - **Limit ad tracking**: Reset or limit your advertising identifier in your Android device settings under Privacy → Ads.
 
 If you want us to confirm what data we hold about you (note: in nearly all cases, the answer is "nothing personally identifying") or have any other privacy request, contact us at **techadvantagesupport@gmail.com**.
