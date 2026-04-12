@@ -55,16 +55,16 @@ Most budgeting apps make you categorize every purchase into envelopes, reconcile
 
 ## Pricing
 
-| | Free | Paid (one-time) | Subscriber (monthly) |
+| | Free | Paid ($9.99 one-time) | Subscriber ($4.99/month) |
 |---|---|---|---|
 | Budget engine + tracking | Yes | Yes | Yes |
 | Home screen widget | 1 entry/day | Unlimited | Unlimited |
-| CSV / Excel import | Yes | Yes | Yes |
-| Save to CSV | Yes | Yes | Yes |
-| Save to Excel / PDF | — | Yes | Yes |
+| CSV / Excel import | — | Yes | Yes |
+| Save to CSV / Excel / PDF | — | Yes | Yes |
 | Receipt photos | — | Up to 5/transaction | Up to 5/transaction |
 | Ad-free | — | Yes | Yes |
-| Household SYNC | — | Join (free) | Create + Admin |
+| Join a SYNC household | Yes | Yes | Yes |
+| Create + Admin a SYNC group | — | — | Yes |
 | Cash Flow Simulation | — | — | Yes |
 
 **Compare that to the competition:**
@@ -72,7 +72,7 @@ Most budgeting apps make you categorize every purchase into envelopes, reconcile
 - Goodbudget: $10/month ($80/year)
 - EveryDollar (Ramsey+): $17.99/month
 
-BudgeTrak's core budgeting features are **free forever**, the one-time paid upgrade costs less than a single month of most competitors, and even the full subscription with household sync costs a fraction of what others charge monthly.
+BudgeTrak's core budgeting features are **free forever** with no account required. The one-time $9.99 paid upgrade unlocks import, export, receipt photos, and ad removal — less than a single month of most competitors. The $4.99/month subscription adds household sync and cash flow simulation at a fraction of what others charge.
 
 ## Download
 
