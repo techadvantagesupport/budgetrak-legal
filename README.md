@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="budgetrak_logo.png" alt="BudgeTrak SYNC" width="600">
+</p>
+
 # BudgeTrak
 
 **Know what you can spend. Every day. Without thinking about it.**
@@ -76,7 +80,9 @@ BudgeTrak's core budgeting features are **free forever** with no account require
 
 ## Download
 
-[Get BudgeTrak on Google Play](https://play.google.com/store/apps/details?id=com.techadvantage.budgetrak)
+<a href="https://play.google.com/store/apps/details?id=com.techadvantage.budgetrak">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="250">
+</a>
 
 *Available for Android. iOS coming soon.*
 
