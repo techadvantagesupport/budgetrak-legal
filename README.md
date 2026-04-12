@@ -10,7 +10,7 @@ Most budgeting apps make you categorize every purchase into envelopes, reconcile
 
 - **One number that matters** — your available cash, updated in real time on a beautiful Solari flip-display widget right on your home screen
 - **No bank login required** — your financial credentials stay with your bank, not with us
-- **End-to-end encrypted sync** — share a household budget across up to 5 devices with encryption so strong that even our servers can't read your data
+- **End-to-end encrypted SYNC** — share a single budget across up to 5 devices with encryption so strong that even our servers can't read your data
 - **Works offline** — the full app runs locally on your device, syncing only when you choose to
 
 ## Features
@@ -35,7 +35,7 @@ Most budgeting apps make you categorize every purchase into envelopes, reconcile
 - Accelerated set-aside mode for bills you want fully funded before they arrive
 - 18-month Cash Flow Simulation to visualize your financial trajectory
 
-**Household Sync (BudgeTrak SYNC)**
+**SYNC Groups (BudgeTrak SYNC)**
 - Share one budget across up to 5 family devices in real time
 - End-to-end encryption — the cloud relay stores only encrypted data
 - Device presence indicators show who's online and when each device last synced
@@ -63,7 +63,7 @@ Most budgeting apps make you categorize every purchase into envelopes, reconcile
 | Save to CSV / Excel / PDF | — | Yes | Yes |
 | Receipt photos | — | Up to 5/transaction | Up to 5/transaction |
 | Ad-free | — | Yes | Yes |
-| Join a SYNC household | Yes | Yes | Yes |
+| Join a SYNC group | Yes | Yes | Yes |
 | Create + Admin a SYNC group | — | — | Yes |
 | Cash Flow Simulation | — | — | Yes |
 
@@ -72,7 +72,7 @@ Most budgeting apps make you categorize every purchase into envelopes, reconcile
 - Goodbudget: $10/month ($80/year)
 - EveryDollar (Ramsey+): $17.99/month
 
-BudgeTrak's core budgeting features are **free forever** with no account required. The one-time $9.99 paid upgrade unlocks import, export, receipt photos, and ad removal — less than a single month of most competitors. The $4.99/month subscription adds household sync and cash flow simulation at a fraction of what others charge.
+BudgeTrak's core budgeting features are **free forever** with no account required. The one-time $9.99 paid upgrade unlocks import, export, receipt photos, and ad removal — less than a single month of most competitors. The $4.99/month subscription adds SYNC groups and Cash Flow Simulation at a fraction of what others charge.
 
 ## Download
 
