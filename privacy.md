@@ -119,10 +119,35 @@ BudgeTrak relies on the following third-party services. Each has its own privacy
 | **Google Firebase Authentication** | Anonymous sign-in for SYNC | Anonymous user token |
 | **Google Firebase App Check** | Anti-abuse verification | Play Integrity attestation |
 | **Google Firebase Crashlytics** | Crash reports and diagnostics | Crash data, no financial data |
+| **Google Gemini** (opt-in AI features only) | Receipt reading; CSV transaction categorization | Receipt image contents; merchant, amount, date of imported bank transactions |
 | **Google Play Billing** | Subscription and one-time purchases | Payment info (handled entirely by Google) |
 | **Google AdMob** (free tier only) | Banner advertising | Advertising ID, basic device info |
 
 You can review Google's privacy practices at [https://policies.google.com/privacy](https://policies.google.com/privacy).
+
+## AI-Assisted Features (Opt-In, Paid and Subscriber Tiers)
+
+BudgeTrak offers two optional AI-assisted features powered by Google's Gemini models, accessed through Firebase AI Logic.
+
+### AI Receipt Scanning (Subscribers)
+When a subscriber taps the sparkle icon in the transaction dialog, BudgeTrak sends the receipt photo to Google Gemini to extract the merchant, date, amount, and category. The response is returned directly to your device and stored only in your transaction record.
+
+### AI CSV Categorization (Paid and Subscriber tiers, off by default)
+When enabled in Settings, BudgeTrak sends the merchant name, amount, and date of newly-imported bank transactions to Google Gemini to choose the best-matching category for each one. Only transactions that BudgeTrak's on-device categorizer cannot confidently classify are sent.
+
+### What's never sent to the AI provider
+- Your account balances or totals
+- Your historical transactions (other than the specific imported rows or receipt being processed)
+- Your encryption keys, device identifiers, or authentication tokens
+- Your receipt photos (they are only sent by Receipt Scanning above, never by CSV Categorization)
+
+### How your data is protected
+- All requests are encrypted in transit (HTTPS/TLS).
+- Google deletes request and response data once the request completes; nothing is stored on Google's servers for these features.
+- Per Firebase AI Logic's default configuration, **your data is not used to train Google's models**.
+- Both features can be disabled in Settings at any time, which falls back to BudgeTrak's fully on-device behavior.
+
+Free-tier users have no access to either AI feature, and no data from Free-tier accounts is ever sent to the AI provider.
 
 ## Your Rights and Choices
 
